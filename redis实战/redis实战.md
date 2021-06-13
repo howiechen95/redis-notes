@@ -11,8 +11,16 @@ redis 是使用内存存储的非关系型数据库(key-value)
 1 基本数据类型
 字符串、列表、集合、散列表、有序集合
 string,list,set,hash,zset
-
 每种数据结构有专属命令，支持批量操作、不完全的事务支持
+
+string
+get/set/del
+
+list,链表
+rpush [key] [value] // 推入列表右边
+lrange [key] [startIndex] [endIndex] // 列出指定列表索引的值,-1为结束索引
+LINDEX [KEY_NAME] [INDEX_POSITION] // 列出指定单个key  
+lpop [key]  // 从列表左端弹出一个元素
 
 高级特性：
 发布订阅、主从复制、持久化、脚本、存储过程
