@@ -1,4 +1,4 @@
 - 《Redis实战》
 - 《Redis设计与实现》
-- 《*Redis* 深度历险》
+- 《Redis 深度历险》
 - 《Redis设计与源码分析》
